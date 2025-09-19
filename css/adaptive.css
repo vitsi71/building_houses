@@ -1,0 +1,711 @@
+@media screen and (max-width: 1229px) {
+
+    .teh1 {
+        top: 6.5vw;
+
+    }
+
+    .teh2 {
+        top: 9.5vw;
+
+    }
+
+    .teh3 {
+        top: 27vw;
+        left: 30px;
+
+    }
+
+    .teh4 {
+        top: 25.5vw;
+
+    }
+
+    .teh5 {
+        top: 41.5vw;
+        left: 40%;
+        width: 280px;
+
+    }
+    .excursion_info{
+        top: 0;
+       }
+
+    .excursion_info h2{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .slide_info {
+        font-size: 15px;
+        padding: 15px min(30px, 4.5vw) 15px min(30px, 4.7vw);
+    }
+
+    .slide_info_address span {
+        font-size: 17px;
+    }
+}
+    @media screen and (max-width: 1023px) {
+        .project,
+        .project1 {
+            padding: 40px 0 60px;
+            grid-template-columns: minmax(290px, 588px);
+            justify-content: center;
+            grid-template-areas:
+   "project_name_"
+   "project_img "
+   "project_description";
+
+        }
+
+        .project_name {
+            display: none;
+        }
+
+        .project_name_ {
+            display: inline-block;
+            padding-bottom: 30px;
+        }
+
+        .project .project_description,
+        .project1 .project_description {
+            display: block;
+            padding-top: 30px;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .project_info {
+            gap: 40px;
+
+        }
+
+        .technology_item {
+            font-size: 15px;
+        }
+
+        h4 {
+            font-size: 17px;
+        }
+
+        .step p {
+            font-size: 17px;
+        }
+
+        .teh1 {
+            width: 23vw;
+        }
+
+        .teh2 {
+            width: 21.5vw;
+            right: 0;
+        }
+
+        .teh3 {
+            width: 19vw;
+            left: 10px;
+        }
+
+        .teh4 {
+            width: 21.5vw;
+            right: 0;
+        }
+
+        .steps_items {
+            row-gap: 75px;
+            justify-content: space-around;
+        }
+
+        .step {
+            width: 340px;
+        }
+
+        .consultation {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .excursion_info h2{
+            font-size: 40px;
+            padding-top: 100px;
+            line-height: 50px;
+        }
+        .slick-slide.slick-current{
+            width: auto;
+            opacity: 100%;
+        }
+        .slick-slide.slick-active{
+            opacity: 100%;
+        }
+        .slick-slide.slick-current .slide_info {
+            display: grid;
+            width:auto;
+        }
+
+    }
+
+    @media screen and (max-width: 950px) {
+        .technology_item {
+            font-size: 14px;
+        }
+
+        .teh1 {
+            width: 23vw;
+        }
+
+        .teh2 {
+            width: 23.5vw;
+
+        }
+
+        .teh3 {
+            width: 24vw;
+
+        }
+
+        .teh4 {
+            width: 23.5vw;
+
+        }
+        .slide_info_param{
+            padding-left: 24px;
+            white-space: nowrap;
+        }
+        .slide_info{
+            height: auto;
+    }
+    }
+
+    @media screen and (max-width: 872px) {
+        .teh1 p, .teh2 p, .teh3 p, .teh4 p, .teh5 p {
+            display: none;
+        }
+
+        .teh1 {
+            top: 4.5vw;
+
+        }
+
+        .teh2 {
+            top: 7.5vw;
+
+
+        }
+
+        .teh3 {
+            top: 25vw;
+
+
+        }
+
+        .teh4 {
+            top: 23.5vw;
+        }
+
+        .slide_ {
+            width:100%;}
+        .owl-carousel .owl-item.active.center{
+            margin: unset;
+        }
+
+    }
+
+    @media screen and (max-width: 767px) {
+        h1 {
+            font-size: 45px
+        }
+
+        .home_info {
+            padding-top: 155px;
+        }
+
+        h2 {
+            font-size: 35px;
+            padding-top: 100px;
+
+        }
+
+        .technology h2 {
+            margin-bottom: 45px;
+        }
+
+        h3 {
+            font-size: 25px;
+
+        }
+
+        .technology h4 {
+            font-size: 18px;
+            padding-bottom: 14px;
+        }
+
+        #house1920, .technology_item {
+            display: none;
+        }
+
+        #house320 {
+            display: flex;
+            grid-area: h1920;
+            width: 385px
+        }
+
+        .teh320, .teh320 p {
+            display: inline-block;
+            width: 300px;
+            font-size: 16px;
+
+        }
+
+        .teh320 {
+            padding: 20px 16px;
+            top: 360px;
+            left: 24vw;
+            background-color: var(--color_light_grey);
+        }
+
+        .teh320:before {
+            content: '';
+            font-size: 0;
+            border: 10px solid transparent;
+            border-bottom: 10px solid var(--color_light_grey);
+            position: absolute;
+            top: -20px;
+            left: 130px;
+        }
+        .excursion_img{
+            display: none;
+        }
+        .excursion_info h2{
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .excursion_info{
+            position: unset;
+            margin: 0 auto;
+        }
+        .footer{
+            padding-bottom: 85px;
+        }
+        .footer_container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+    'footer_icon'
+    "footer_address"
+    "contacts";
+            text-align: center;
+            gap: 40px;
+
+        }
+        .footer_icon{
+            grid-area: footer_icon;
+            padding: 0;
+            gap: 45px;
+        }
+        .footer_address{
+            grid-area: footer_address;
+        }
+        .contacts{
+            grid-area: contacts;
+            text-align: center;
+        }
+        .contacts .back_call{
+            justify-content: center;
+           }
+        .slide_ {
+            width:100%;}
+        .owl-carousel .owl-item.active.center{
+            margin: unset;
+        }
+        .slide_info_param{
+            padding-left: 24px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .scroll,
+        .home .social_network {
+            display: none;
+        }
+
+        h1 {
+            font-size: 40px
+        }
+
+        .home_info {
+            margin: 0 auto;
+        }
+
+        .guarantee_group {
+            row-gap: 50px;
+            padding: 30px 0 50px;
+        }
+
+        .guarantee_ {
+            row-gap: 50px;
+        }
+
+        .guarantee_step_ {
+            row-gap: 40px;
+        }
+
+        .guarantee_step {
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        .guarantee_step p {
+            padding-right: 20px;
+        }
+
+        /*Включить, если нужно позиционирование иконок гарантии по верху , как в макете.*/
+        /*Сейчас оставлено по центру, как в десктопной версии*/
+        /*.guarantee_step{*/
+        /*    align-items: start;*/
+        /*}*/
+        .guarantee_step .guarantee_icon {
+            padding: 0 30px;
+
+        }
+
+        .guarantee_icon img {
+            height: 42px;
+            object-fit: contain;
+        }
+
+        .consultation {
+            gap: 40px;
+            padding-top: 100px;
+        }
+
+        .consultation_img {
+            padding: 0 15px;
+        }
+
+        .consultation_img img {
+            width: 100%;
+        }
+        .slider_container{
+            padding: 0 20px;
+        }
+        .slider_name{
+            padding: 90px 20px 50px;
+        }
+
+    }
+
+    @media screen and (max-width: 589px) {
+
+        h1 {
+            font-size: 35px;
+            margin-bottom: 25px;
+            width: auto
+        }
+
+        .home_info {
+            padding-top: 150px;
+        }
+
+        .home .btn {
+            margin-top: 35px;
+        }
+
+        .header .contacts {
+            display: none
+        }
+
+        .header .logo {
+            margin: 0 auto
+        }
+
+        .steps_items {
+            row-gap: 60px;
+        }
+
+        .guarantee_icons {
+            width: 120px;
+            height: 120px;
+        }
+
+        .guarantee_icons img {
+            height: 60px;
+            object-fit: contain;
+
+        }
+        .slide_info{
+            padding: 13px  15px  ;
+        }
+
+    }
+
+    @media screen and (max-width: 550px) {
+        .owl-carousel .owl-item.active.center .slide_img{
+            min-height: 320px ;
+            min-width: 550px;
+            position: relative;
+            left: -10vw;
+        }
+    }
+        @media screen and (max-width: 470px) {
+        .slider_container{
+            padding: 0 ;
+        }
+        .slide_info{
+            font-size: 14px;
+            padding: 12px  15px ;
+            align-items: start;
+            line-height: 18px;
+        }
+        .slide_info .line{ align-self: center;}
+        .slide_info_address span{
+            font-size: 14px;
+            padding-bottom: 8px;
+        }
+        .slide_info_address {
+            gap: 0;
+        }
+        .slide_info_param{
+            gap: 10px;
+        }
+        .owl-carousel .owl-item.active.center .slide_img{
+            left: -20vw;
+        }
+    }
+    @media screen and (max-width: 424px) {
+        h1 {
+            font-size: 30px;
+            margin-bottom: 22px
+        }
+        .btn{
+            height: 55px;
+        }
+        h2,.excursion_info h2 {
+            font-size: 30px;
+            padding-top: 90px;
+            line-height: 40px;
+        }
+
+        .steps h2 {
+            padding-bottom: 40px;
+        }
+
+        .technology h2 {
+            margin-bottom: 20px;
+        }
+
+        .home .btn {
+            margin-top: 30px;
+        }
+
+        .project p,
+        .project1 p {
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .footer_address p{
+            font-size: 16px;
+            line-height: 2;
+        }
+
+        .project,
+        .project1 {
+            padding-top: 30px;
+        }
+
+        .house_size {
+            width: 95px;
+            height: 95px;
+            font-size: 18px;
+        }
+
+        .project_img {
+            gap: 18px;
+        }
+
+        .card-img.house_img {
+            max-width: calc((100% - 36px) / 3);
+        }
+
+        #house320 {
+            width: 345px;
+        }
+
+        .technology h4 {
+            font-size: 17px;
+        }
+
+        .guarantees .btn_download {
+            font-size: 16px;
+        }
+
+        .teh320 {
+            top: 324px;
+            left: 20vw;
+        }
+
+        .teh320 p {
+            font-size: 15px;
+        }
+
+        .consultation_img {
+            display: none;
+            padding-top: 90px;
+        }
+        label {
+            grid-template-columns: 345px;
+        }
+
+        .slider_name{
+            padding: 90px 0 50px;
+        }
+        .slide_info{
+            grid-template-columns: 58% 1px 42%;
+        }
+        .slide_info_param span{display: none;}
+        .owl-carousel button.owl-dot {margin-top: 30px;}
+        .owl-carousel .owl-item.active.center .slide_img{
+            left: -35vw;
+        }
+    }
+
+    @media screen and (max-width: 374px) {
+        h1 {
+            font-size: 26px;
+            margin-bottom: 19px;
+        }
+
+        .btn {
+            font-size: 16px;
+            height: 50px;
+        }
+
+        .consultation_form input {
+            line-height: 48px;
+            font-size: 16px;
+        }
+
+        .home .btn {
+            margin-top: 27px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .house_size {
+            width: 85px;
+            height: 85px;
+            font-size: 15px;
+        }
+
+        .btn_download {
+            font-size: 15px;
+        }
+
+        .guarantees .btn_download {
+            font-size: 14px;
+        }
+
+        .btn_consultation {
+            padding: 0 49px;
+            font-size: 16px;
+        }
+
+        .project_img {
+            gap: 12px;
+        }
+
+        .card-img.house_img {
+            max-width: calc((100% - 24px) / 3);
+        }
+
+        #house320 {
+            width: 290px;
+        }
+
+        h4,.step p, .excursion_info p {
+            font-size: 16px;
+        }
+
+        .teh320 {
+            top: 272px;
+            left: 19vw;
+            width: 290px;
+            box-sizing: border-box;
+        }
+
+        .teh320:before {
+            left: 116px;
+        }
+
+        .teh320 p {
+            font-size: 14px;
+            line-height: 18px;
+            width: 290px;
+        }
+
+        .steps_items {
+            padding-left: 0;
+            justify-content: left;
+            row-gap: 50px;
+        }
+
+        .step {
+            width: 290px;
+        }
+
+        .step_info_1, .step_info_3, .step_info_4, .step_info_6 {
+            width: 190px;
+        }
+
+        .slider_name, .guarantees h2 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .guarantee_group {
+            row-gap: 40px;
+            padding: 20px 0 40px;
+        }
+
+        .guarantee_ {
+            row-gap: 40px;
+        }
+
+        .guarantee_step_ {
+            row-gap: 20px;
+        }
+
+        .guarantee_step .guarantee_icon {
+            padding: 0 20px;
+
+        }
+
+        .guarantee_icon img {
+            height: 36px;
+            object-fit: contain;
+        }
+
+        .guarantee_icons {
+            width: 100px;
+            height: 100px;
+        }
+
+        .guarantee_icons img {
+            height: 50px;
+            object-fit: contain;
+
+        }
+
+        label {
+            grid-template-columns: 290px;
+        }
+        .owl-carousel .owl-item.active.center .slide_img{
+            left: -50vw;
+        }
+}
+
+
+
